@@ -15,11 +15,11 @@ const Heroes = () => {
     }, []);
 
     return (
-        <div className="container-fluid">
+        <div className="container">
             {heroes.map(hero => (
                 <div key={hero.id}>
-                  <span className="spanInfo">{hero.id}</span>
-                  <span >{hero.name}</span>
+                  <span className="badge">{hero.id}</span>
+                  <span className="name">{hero.name}</span>
                 </div>
             ))}
         </div>
