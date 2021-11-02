@@ -1,11 +1,13 @@
-import React from "react";
-import "./style.css";
+import './App.css';
+import React from 'react';
+import Heroes from './pages/Heroes/Heroes';
 
-export default function App() {
+function App() {
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+      <Heroes/>
     </div>
   );
-}
+};
+
+export default App;
